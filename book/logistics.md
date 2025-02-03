@@ -6,13 +6,13 @@ Check back later...
 
 ## Location
 
-* The 2025 ECCO Summer School will be held at the Asilomar Conference Center in Pacific Grove, California.
+The 2025 ECCO Summer School will be held at the Asilomar Conference Center in Pacific Grove, California.
 
+```
 Asilomar Conference Grounds
-
 800 Asilomar Ave
-
 Pacific Grove, CA 93950
+```
 
 [Link on Google Maps](https://maps.app.goo.gl/68Vax6z26FZSuDsk7)
 
@@ -40,6 +40,7 @@ _"Sit back in the comfortable, antique setting of the Café and the Social Hall 
 ### Parking
 
 Parking is free at Asilomar Hotel & Conference Grounds and there is no park entrance fee.
+
 [Parking Map](https://www.visitasilomar.com/plan/maps-parking/)
 
 ### Getting There

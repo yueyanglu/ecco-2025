@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: 2024 ECCO Hack Week 
-author: ECCO Consortium
+title: 2025 ECCO Summer School
+author: Ian Fenty
 logo: logo.png
 only_build_toc_files: true
 
@@ -10,18 +10,18 @@ parse:
   # https://jupyterbook.org/content/content-blocks.html?highlight=myst%20substitution#define-substitutions-for-your-whole-book
   # https://jupyterbook.org/content/content-blocks.html#using-substitutions-in-links
   myst_substitutions:
-    hackweek: "ECCO HackWeek"
-    dates: "October 14 to 18, 2024"
-    github_org_url: "https://github.com/ECCO-Hackweek/ecco-2024"
+    hackweek: "ECCO Summer School"
+    dates: "May 19 to 30, 2025"
+    github_org_url: "https://github.com/ECCO-Summer-School/ecco-2025"
     book_repo: "jupyterbook-template"
-    website_url: "https://ecco-hackweek.github.io/ecco-2024/"
+    website_url: "https://ecco-summer-school.github.io/ecco-2025/"
     jupyterhub_url: "https://sealevel.oss.eis.smce.nasa.gov"
-    slack_workspace_url: "https://2024eccohackweek.slack.com"
-    contact_email: "eccohackweek@gmail.com"
+    slack_workspace_url: "https://2025eccosummerschool.slack.com"
+    contact_email: "eccosummerschool@gmail.com"
     dataset: "INSERT_DATA_SET_NAME"
     anon_reporting_url: "https://INSERT_FORM_LINK"
     project_spreadsheet_url: "https://INSERT_GOOGLE_SHEET"
-    presentations_url: "https://drive.google.com/drive/folders/1EmQ4el3x79ZULBKuzRfOK1RI-9EanCA6?usp=drive_link"
+    presentations_url: "https://drive.google.com/drive/folders/19k_gYL9-S_UTmTzL3fAttyEBdHcB44z5?usp=sharing"
   myst_enable_extensions:
     # Defaults
     - dollarmath
@@ -57,7 +57,7 @@ launch_buttons:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/ECCO-Hackweek/ecco-2024 # Online location of your book
+  url: https://github.com/ECCO-Summer-School/ecco-2025/ # Online location of your book
   path_to_book: book  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 

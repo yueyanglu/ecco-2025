@@ -7,9 +7,9 @@ parts:
   chapters:
     - file: logistics
     - title: Schedule
-      url: https://ecco-hackweek.github.io/ecco-2024/index.html?jump_to=schedule
+      url: https://ecco-summer-school.github.io/ecco-2025/index.html?jump_to=schedule
     - title: Team
-      url: https://ecco-hackweek.github.io/ecco-2024/index.html?jump_to=team
+      url: https://ecco-summer-school.github.io/ecco-2025/index.html?jump_to=team
     - file: CoC
 - caption: Preparation
   chapters:
