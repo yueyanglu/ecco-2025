@@ -1,7 +1,7 @@
 # Welcome to {{hackweek}}!
 
 
-📖 On this JupyterBook website you'll find tutorials. All tutorials are Jupyter Notebooks, designed to be run interactively, but also rendered on this website for convenience.
+📖 On this JupyterBook website you'll find tutorials and other resources related to the summer school. Many of the tutorials are Jupyter Notebooks, designed to be run interactively, but also rendered on this website for convenience.
 
 ```{admonition} Quick links for the event
 :class: seealso

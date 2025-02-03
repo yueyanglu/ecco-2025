@@ -1,8 +1,8 @@
 # Participant Conduct
 
-We require all participants in the Hackweek program to comply with the following code of conduct (adapted from [here](https://escience.washington.edu/about/code-of-conduct/)).
+We require all participants in the Summer School program to comply with the following code of conduct (adapted from [here](https://escience.washington.edu/about/code-of-conduct/)).
 
-Hackweek participants are intentionally diverse across many categories including academic standing, domain field, technical experience, etc., and we expect everyone to respect all perspectives represented. 
+Summer School participants are intentionally diverse across many categories including academic standing, domain field, technical experience, etc., and we expect everyone to respect all perspectives represented. 
 
 ## Code of Conduct
 

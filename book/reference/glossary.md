@@ -31,11 +31,6 @@
   Provider of Internet hosting for software development and distributed version
   control using the "git" command line tool.
 
-[Hackweek](https://uwhackweek.github.io/hackweeks-as-a-service)
-  Participant-driven events that strive to create welcoming spaces to learn new
-  things, build community and gain hands-on experience with collaboration and
-  team science.
-
 [Project Jupyter](https://jupyter.org)
   Project Jupyter (name derived from "JUlia PYThon and R") exists to develop
   open-source software, open-standards, and services for interactive computing

@@ -2,8 +2,8 @@
 ## Required setup
 
 ```{attention}
-Please make sure to find some time to go through the below material before
-the hackweek.
+Please make sure to complete the following activities before
+the summer school begins.
 
 __Upon completion you__:
 <div>
@@ -42,7 +42,7 @@ __Upon completion you__:
 
 ### Slack Account
 
-All of our communication throughout the hackweek will be done using the
+Communication throughout the school will be done using the
 {{ '[`{hackweek}` Slack workspace]({url})'.format(hackweek=hackweek, url=slack_workspace_url)}}.
 With your invite to the hackweek, you should also have received a separate
 email to join the Slack workspace. Upon accepting the invite, please take a moment to
@@ -65,17 +65,18 @@ Many tutorials will be provided for a JupyterHub environment. Please visit the
 [Project Pythia Foundation Skills](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html)
 to learn more about the components of project Jupyter.
 
-Specifically for the event, we will be using EIS-Sealevel [Open Science Studio (OSS)](https://smce.nasa.gov/oss/). Please follow [these steps](https://ecco-hackweek.github.io/ecco-2024/preliminary/oss_intro.html) to log in to your OSS system JupyterHub.
+Specifically for the event, we will be using EIS-Sealevel [Open Science Studio (OSS)](https://smce.nasa.gov/oss/). 
 
+Please follow [these steps](https://ecco-summer-school.github.io/ecco-2025/preliminary/oss_intro.html) to log in to your OSS system JupyterHub.
 
 ### GitHub authentication on OSS
 
-To interact between online GitHub repositories and your OSS, you will need to set up an access token or key with GitHub. Follow [these steps](https://ecco-hackweek.github.io/ecco-2024/preliminary/git_access.html) to set this up and test it.
+To interact between online GitHub repositories and your OSS, you will need to set up an access token or key with GitHub. Follow [these steps](https://ecco-summer-school.github.io/ecco-2025/preliminary/git_access.html) to set this up and test it.
 
 
 ### EarthData account and OSS setup
 
-We'll have you download some data from NASA Earthdata for your tutorials and projects. You can register for an account [here](https://urs.earthdata.nasa.gov). Then follow [these steps](https://ecco-hackweek.github.io/ecco-2024/preliminary/Earthdata_credentials.html) to store your credentials on the OSS system.
+We'll have you download some data from NASA Earthdata for your tutorials and projects. You can register for an account [here](https://urs.earthdata.nasa.gov). Then follow [these steps](https://ecco-summer-school.github.io/ecco-2025/preliminary/Earthdata_credentials.html) to store your credentials on the OSS system.
 
 
 ### P-Cluster login and .bashrc update
@@ -85,4 +86,4 @@ We'll have you download some data from NASA Earthdata for your tutorials and pro
 
 ### Set up Julia on the P-Cluster
 
-Follow [these steps](https://ecco-hackweek.github.io/ecco-2024/tutorials/Julia_setup/guidelines.html) to set up the environment for the Julia tutorials on the P-Cluster.
+Follow [these steps](https://ecco-summer-school.github.io/ecco-2025/tutorials/Julia_setup/guidelines.html) to set up the environment for the Julia tutorials on the P-Cluster.

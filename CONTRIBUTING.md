@@ -14,7 +14,7 @@ Ready to contribute? Here's a quick guide
 To build our website, we need specific Python packages which are managed with the `conda` and `mamba` tools. If you already do not already have those tools installed, we recommend using the [Mambaforge Installer](https://github.com/conda-forge/miniforge#mambaforge):
 
 
-1. Fork this hackweek's website repo on GitHub.
+1. Fork this summer school's website repo on GitHub.
 
 1. Clone your fork locally:
 
@@ -29,12 +29,12 @@ To build our website, we need specific Python packages which are managed with th
     git checkout -b name-of-your-bugfix-or-feature
     ```
 
-1. Create and activate the "hackweek" conda environment.
+1. Create and activate the "ESS" conda environment.
 
    __NOTE__: If you're running linux or Windows use `conda/conda-linux-64.lock.yml`
     ```sh
-    mamba env create --name hackweek --file conda/conda-osx-64.lock.yml
-    mamba activate hackweek
+    mamba env create --name ESS --file conda/conda-osx-64.lock.yml
+    mamba activate ESS
     ```
    __NOTE__: If you want to add packages or change the environment,
     you must follow the procedure outlined in [./conda/README.md](./conda/README.md).
