@@ -1,19 +1,10 @@
 # Projects
 
-During hackweeks we invite participants to collaborate in small group project teams (usually 5-7 people). Projects provide unique opportunities for networking, advancing research and learning new things.
-
-```{image} ../img/projects-montage.png
-:alt: picture of people interacting during hackweek project work
-:class: bg-primary mb-1
-:width: 700px
-:align: center
-```
-
-You can find our comprehensive guide for organizing projects before, during, and after a hackweek in our [Hackweek Guidebook](https://guidebook.hackweek.io/training/projects/index.html). Below you'll find a table keeping track of all project work done during this event:
+As you prepare for the summer school, we encourage you to start thinking about a project you’d like to explore, either individually or in a team. This could be a question you’ve been curious about, a problem you’d like to solve, or a new method you want to learn and apply. Your project can be ambitious or exploratory, and you’ll have the opportunity to refine it as you engage with peers and mentors. Whether you already have a concrete idea or just a general direction, we invite you to come ready to collaborate, experiment, and make the most of this hands-on learning experience.
 
 ## List of Projects
 
-Projects for the {{dates}} {{ hackweek }} will be listed here during the event. Prior to them being listed here, participants can express their interest in one or more projects on the projects spreadsheet: {{ project_spreadsheet_url }}
+Projects will be listed here during the event. Prior to them being listed here, participants can express their interest in one or more projects on the projects spreadsheet: {{ project_spreadsheet_url }}
 
 | Project Name (with link to GitHub repo) | Short Description | Project Lead(s) |
 |:--------|:--------|:-----|
