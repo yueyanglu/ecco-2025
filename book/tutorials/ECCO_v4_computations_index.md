@@ -2,9 +2,9 @@
 
 The [ECCO version 4 Python Tutorial website](https://ecco-v4-python-tutorial.readthedocs.io/) has a wide range of tutorials to help users get started with accessing and using ECCOv4 output. These tutorials cover subjects ranging from loading data files using Python's *xarray* package, to more advanced computations like the steric height, meridional heat transport, and budgets.
 
-## Tutorials hosted in `ecco-2024`
+## Tutorials hosted in `ecco-2025`
 
-A subset of these tutorials have been copied over to the `ecco-2024` Jupyter book and can be accessed below, to give you a sense of their range and structure. The tutorials hosted here already have settings enabled for cloud access, and will use the `efs_ecco` mounted drive for any downloads.
+A subset of these tutorials have been copied over to the `ecco-2025` Jupyter book and can be accessed below, to give you a sense of their range and structure. The tutorials hosted here already have settings enabled for cloud access, and will use the `efs_ecco` mounted drive for any downloads.
 
 | Tutorial | Topics |
 | - | - |
