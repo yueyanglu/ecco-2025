@@ -1,294 +1,558 @@
 timezone: UTC -7 (Pacific Daylight Time)
 tabs:
+
+- title: Day 0
+  date: Sunday May 18, 2025
+  contents:
+  
+  - title: Arrival
+    description: 
+    time: 3:00 - 6:00 pm
+  
+  - title: Dinner
+    description: null
+    time: 6:00 - 8:00 pm
+  
 - title: Day 1
-  date: Monday 14 October
+  date: Monday May 19, 2025
   contents:
   
-  - title: Hackweek Kickoff
+  - title: Summer School Kick-off
     description: Welcome, Logistics, and Introductions 
-    time: 8:00 - 9:00 am
-      
-  - title: ECCO Resources and Tools
-    description: Overview ECCO V4 datasets, Python & Julia tools and EMU.
-    time: 9:00 - 10:00 am
+    time: 9:00 - 10:30 am
     leads:
-    - Ian Fenty, Ichiro Fukumori, and Gael Forget
+    - Ian Fenty, Other Organizers
 
   - title: Coffee Break
     description: null
-    time: 10:00 - 10:30 am
-  
-  - title: Hackweek Cloud Compute Resources
-    description: Getting connected to our shared computational resources. OSS JupyterHub, P-Cluster, and efs_ecco.
-    time: 10:30 - 11:15 am
-    leads:
-    - Andrew Delman,  Ou Wang 
-      
-  - title: Lunch
-    description: null
-    time: 11:15 - 12:30 pm
-  
-  - title: Project Pitches 
-    description: Open forum for individuals to pitch project ideas 
-    time: 12:30 - 1:30 pm
+    time: 10:30 - 11:00 am
 
-  - title: Project Team organization 
-    description: Open time to organize into project teams 
-    time: 1:30 - 2:30 pm
-
-  - title: Coffee Break
-    description: null
-    time: 2:30 - 3:00 pm
-
-  - title: Accessing ECCO data products 
-    description: Different methods for accessing ECCO data products in and out of the cloud
-    time: 3:00 - 3:30 pm
-
-  - title: Open Project Time
-    description: Team-led project work
-    time: 3:30 - 4:45 pm
-
-  - title: Daily Wrap / Updates
-    description: Summary of Day, Announcements 
-    time: 4:45 - 5:00 pm
-
-  - title: Social Activity -- Local Pub
-    description: Kings Row Gastropub in Old Town Pasadena
-    time: 5:30 - 7:30 pm
-
-
-- title: Day 2
-  date: Tuesday 15 October 
-  contents:
-  
-  - title: Daily Kick-off
-    description: Annoucements / Housekeeping
-    time: 8:00 - 8:15 am
-  
-  - title: Greetings from NASA HQ
-    description: NASA Ocean Physics Program Manager Nadya Vinogradova-Shiffer welcomes Hackweek participants
-    time: 8:15 - 8:30 am
-
-  - title: Team Daily Project Report
-    description: Teams report progress, open requests
-    time: 8:30 - 9:00 am
-
-  - title: EMU Demonstration
-    description: Arctic Bottom Pressure Oscillation Case study using ECCO Modeling Tools
-    time: 9:00 - 9:30 am
+  - title: ECCO Overview 
+    description: ECCO and the ECCO Central Estimate
+    time: 11:00 - 12:30 pm
     leads:
     - Ichiro Fukumori
 
-  - title: ECCO & Julia
-    description: Demonstration of Julia Tools for ECCO
-    time: 9:30 - 10:00 am
+  - title: Lunch
+    description: null
+    time: 12:30 - 2:00 pm
+  
+  - title: ECCO Applications
+    description: Survey of applications of ECCO products
+    time: 2:00 - 3:00 pm
+    leads:
+    - TBD
+
+  - title: Coffee Break
+    description: null
+    time: 3:00 - 3:30 pm
+
+  - title: Hands on - Cloud Compute Resources
+    description: Getting connected to shared computational resources. OSS JupyterHub, P-Cluster, and efs_ecco.
+    time: 3:30 - 5:00 pm
+    leads:
+    - Ian Fenty, Ou Wang, Gael Forget 
+      
+  - title: Hands on - ECCO Analysis Tools
+    description: Matlab, Python, Julia, and other tools for working with ECCO data
+    time: 5:00 - 5:45 pm
+    leads:
+    - Ian Fenty, Gael Forget 
+
+  - title: Daily Wrap / Updates
+    description: Summary of Day, Announcements 
+    time: 5:45 - 6:00 pm  
+
+  - title: Dinner
+    description: 
+    time: 7:00 - 8:00 pm
+
+  - title: Student Poster Session 1
+    description: 
+    time: 8:00 - 9:00 pm
+  
+    
+- title: Day 2
+  date: Tuesday May 20, 2025
+  contents:
+  
+  - title: Daily Kick-off
+    description: Announcements and Team Updates
+    time: 8:30 - 9:30 am
+  
+  - title: Lecture - State Estimation
+    description: Introduction to state estimation and adjoint methods
+    time: 9:30 - 10:30 am
+    leads:
+    - Ichiro Fukumori
+
+  - title: Coffee Break
+    description: null
+    time: 10:30 - 11:00 am
+
+  - title: Hands on - Project Organization with Git
+    description: Introduction to using Git for project organization
+    time: 11:00 - 12:30 pm
     leads:
     - Gael Forget
 
+  - title: Lunch
+    description: null
+    time: 12:30 - 2:00 pm
+
+  - title: Lecture - General Circulation of the Global Ocean
+    description: High-level overview of the ocean circulation and open questions
+    time: 2:00 - 3:00 pm
+    leads:
+    - Paola Cessi
+
   - title: Coffee Break
     description: null
-    time: 10:00 - 10:15 am
-  
-  - title: Basics of Adjoints & Algorithmic Differentiation
+    time: 3:00 - 3:30 pm
+
+  - title: Project Formulation 
+    description: Open forum to pitch project ideas and form project teams
+    time: 3:30 - 5:00 pm
+
+  - title: Project Team organization
+    description: Open time for project organization
+    time: 5:00 - 5:45 pm
+
+  - title: Daily Wrap / Updates
+    description: Summary of Day, Announcements 
+    time: 5:45 - 6:00 pm  
+
+  - title: Dinner
+    description: Summary of Day, Announcements 
+    time: 7:00 - 8:00 pm
+
+  - title: Student Poster Session 2
     description: 
-    time: 10:15 - 10:45 am
+    time: 8:00 - 9:00 pm
+  
+- title: Day 3
+  date: Wednesday May 21, 2025
+  contents:
+
+  - title: Daily Kick-off
+    description: Announcements and Team Updates
+    time: 8:30 - 9:30 am
+  
+  - title: Lecture - Adjoint and Its Applications
+    description: The use of adjoint methods in oceanography and their applications
+    time: 9:30 - 10:30 am
+    leads:
+    - Ichiro Fukumori
+
+  - title: Coffee Break
+    description: null
+    time: 10:30 - 11:00 am
+
+  - title: Hands on - Algorithmic Differentiation
+    description: Automatic differentiation concept and tools (TAF & Tapenade)
+    time: 11:00 - 12:30 pm
     leads:
     - Shreyas Gaikwad 
-  
-  - title: Steric Height with Python  
+
+  - title: Lunch
+    description: null
+    time: 12:30 - 2:00 pm
+
+  - title: Lecture - Climate Change and Ocean Warming
+    description: Evidence for ocean warming and knowledge gaps
+    time: 2:00 - 3:00 pm
+    leads:
+    - Sarah Purkey
+
+  - title: Coffee Break
+    description: null
+    time: 3:00 - 3:30 pm
+
+  - title: Hands on - ECCO Modelling Utitities (EMU)
+    description: How to use the EMU suite of tools in ocean research
+    time: 3:30 - 5:00 pm
+    leads:
+    - Ichiro Fukumori
+
+  - title: Open Project Time
+    description: Open time for projects
+    time: 5:00 - 5:45 pm
+
+  - title: Daily Wrap / Updates
+    description: Summary of Day, Announcements 
+    time: 5:45 - 6:00 pm  
+
+  - title: Dinner
     description: 
-    time: 10:45 - 11:15 am
-    leads:
-    - Andrew Delman
-  
-  - title: Lunch 
-    description: null
-    time: 11:15 - 12:30 pm
-  
-  - title: Open Project Time 
-    description: Team-led project work
-    time: 12:30 - 2:30 pm
-
-  - title: Coffee Break
-    description: null
-    time: 2:30 - 2:45 pm
-
-  - title: Open Project Time
-    description: Team-led project work
-    time: 2:45 - 4:45 pm
-
-  - title: Daily Wrap / Updates
-    description: Summary of Day, Announcements 
-    time: 4:45 - 5:00 pm
-
-- title: Day 3
-  date: Wednesday 16 October
-  contents:
-  
-  - title: Daily Kick-off 
-    description: Annoucements / Housekeeping
-    time: 8:00 - 8:15 am
-  
-  - title: Team Daily Project Report  
-    description: Teams report progress, open requests
-    time: 8:15 - 9:00 am
-
-  - title: Team Project Repositories & Project Posters
-    description: We'll set up the team project repositories and describe the final project posters 
-    time: 9:00 - 9:20 am
-    leads:
-    - Gael Forget & Ian Fenty 
-
-  - title: The OBS Fit Package
-    description: A MITgcm package for comparing the model and data in the data space
-    time: 9:20 - 9:35 am
-    leads:
-    - Shoshi Reich
-
-  - title: Concepts in ECCO Budget Closure
-    description: What's involved with closing volume, heat, and salinity/salt/freshwater budget with ECCO v4
-    time: 9:35 - 10:00 am
-    leads:
-    - Margaret A Murakami
-  
-  - title: Coffee Break  
-    description: null
-    time: 10:00 - 10:15 am
-
-  - title: Closing the ECCO Volume Budget
-    description: A close look at closing a budget with ECCO v4
-    time: 10:15 - 10:45 am
-    leads:
-    - Andrew Delman
-
-  - title: Fitting the MITgcm to Data
-    description: Demonstration of optimizing the model to observations
-    time: 10:45 - 11:15 am
-    leads:
-    - Matthew Goldberg
-  
-  - title: Lunch 
-    description: null
-    time: 11:15 - 12:30 pm
-  
-  - title: Open Project Time 
-    description: Team-led project work
-    time: 12:30 - 2:30 pm
-
-  - title: Coffee Break
-    description: null
-    time: 2:30 - 2:45 pm
-
-  - title: Open Project Time
-    description: Team-led project work
-    time: 2:45 - 4:45 pm
-
-  - title: Daily Wrap / Updates
-    description: Summary of Day, Announcements 
-    time: 4:45 - 5:00 pm
-   
-  - title: SOCIAL ACTIVITY -- No-Host Group Dinner 
-    description: Saladang Garden, 383 S Fair Oaks Ave Pasadena
-    time: 5:30 - 8:00 pm
+    time: 7:00 - 8:00 pm
 
 
 - title: Day 4
-  date: Thursday 17 October
+  date: Thursday May 22, 2025
   contents:
 
   - title: Daily Kick-off
-    description: Annoucements / Housekeeping
-    time: 8:00 - 8:15 am
+    description: Announcements and Team Updates
+    time: 8:30 - 9:30 am
   
-  - title: Team Daily Project Report
-    description: Teams report progress, open requests
-    time: 8:15 - 9:00 am
-
-  - title: Open Project Time 
-    description: Team-led project work
-    time: 9:00 - 10:00 am
+  - title: Lecture - Ocean Modeling
+    description: The basis of geophysical ocean models
+    time: 9:30 - 10:30 am
+    leads:
+    - Jean-Michel Campin
 
   - title: Coffee Break
     description: null
-    time: 10:00 - 10:15 am
-  
-  - title: Open Project Time
-    description: Team-led project work
-    time: 10:15 - 11:00 am
+    time: 10:30 - 11:00 am
 
-  - title: Lunch 
+  - title: Hands on - Running ECCO (forward and optimization)
+    description: How to reproduce ECCO solutions and conduct basic optimization to reduce model-data misfits
+    time: 11:00 - 12:30 pm
+    leads:
+    - Ou Wang; Ian Fenty
+
+  - title: Lunch
     description: null
-    time: 11:00 - 12:15 pm
-  
-  - title: AD and UQ
-    description: Applications of the adjoint for uncertainty-quantification 
-    time: 12:15 - 12:45 
+    time: 12:30 - 2:00 pm
 
-  - title: Open Project Time 
-    description: Team-led project work
-    time: 12:45 - 2:30 pm
+  - title: Lecture - Observing Systems
+    description: Global ocean and sea-ice observations sytems 
+    time: 2:00 - 3:00 pm
+    leads:
+    - Severine Fournier
 
   - title: Coffee Break
     description: null
-    time: 2:30 - 2:45 pm
+    time: 3:00 - 3:30 pm
 
   - title: Open Project Time
-    description: Team-led project work
-    time: 2:45 - 4:45 pm
+    description: Open time for projects
+    time: 3:30 - 5:45 pm
 
   - title: Daily Wrap / Updates
     description: Summary of Day, Announcements 
-    time: 4:45 - 5:00 pm
+    time: 5:45 - 6:00 pm  
+
+  - title: Dinner
+    description:  
+    time: 7:00 - 8:00 pm
 
 
 - title: Day 5
-  date: Friday 18 October
+  date: Friday May 23, 2025
   contents:
 
   - title: Daily Kick-off
-    description: Annoucements / Housekeeping
-    time: 8:00 - 8:15 am
+    description: Announcements and Team Updates
+    time: 8:30 - 9:30 am
   
-  - title: NASA's SWOT mission
-    description: Jinbo Wang from JPL will talk about the SWOT mission
-    time: 8:15 - 8:45 am
+  - title: Lecture - Budgets
+    description: Concepts and applications of ocean and sea-ice budget closure 
+    time: 9:30 - 10:30 am
+    leads:
+    - Helen Pillar
+
+  - title: Coffee Break
+    description: null
+    time: 10:30 - 11:00 am
+
+  - title: Hands on - Budgets
+    description: How to close budgets in ECCO
+    time: 11:00 - 12:30 pm
+    leads:
+    - Helen Pillar
+
+  - title: Lunch
+    description: null
+    time: 12:30 pm to 2:00 pm
+
+  - title: Lecture - Sea Level
+    description: Concepts in global and regional sea level
+    time: 2:00 - 3:00 pm
+    leads:
+    - Chris Piecuch
+
+  - title: Coffee Break
+    description: null
+    time: 3:00 - 3:30 pm
+
+  - title: Open Project Time
+    description: Open time for projects 
+    time: 3:30 - 5:45 pm
+
+  - title: Daily Wrap / Updates
+    description: Summary of Day, Announcements 
+    time: 5:45 - 6:00 pm  
+
+  - title: Dinner
+    description: 
+    time: 7:00 - 8:00 pm
+
+
+- title: Day 6
+  date: Saturday May 24, 2025
+  contents:
+
+  - title: Group excursion(s)
+    description: TBD
+    time: 9:00 - 5:00 pm
+
+- title: Day 7
+  date: Sunday May 25, 2025
+  contents:
+
+  - title: Free Day
+    description: 
+    time: 9:00 - 5:00 pm
+
+- title: Day 8
+  date: Monday May 26, 2025
+  contents:
+
+  - title: Daily Kick-off
+    description: Announcements and Team Updates
+    time: 8:30 - 9:30 am
+  
+  - title: Lecture - Climate Change the Global Water Cycle
+    description: The Global water cycle in a changing climate
+    time: 9:30 - 10:30 am
+    leads:
+    - TBD
+
+  - title: Coffee Break
+    description: null
+    time: 10:30 - 11:00 am
+
+  - title: Open Project Time
+    description: 
+    time: 11:00 - 12:30 pm
+    
+  - title: Lunch
+    description: null
+    time: 12:30 pm to 2:00 pm
+
+  - title: Lecture - Ice Sheet & Ocean Interactions
+    description: Observations, Modeling, and Implications 
+    time: 2:00 - 3:00 pm
+    leads:
+    - Mike Wood
+
+  - title: Coffee Break
+    description: null
+    time: 3:00 - 3:30 pm
+
+  - title: Open Project Time
+    time: 3:30 - 5:45 pm
+
+  - title: Daily Wrap / Updates
+    description: Summary of Day, Announcements 
+    time: 5:45 - 6:00 pm  
+
+  - title: Dinner
+    description: 
+    time: 7:00 - 8:00 pm
+
+
+- title: Day 9
+  date: Tuesday May 27, 2025
+  contents:
+
+  - title: Daily Kick-off
+    description: Announcements and Team Updates
+    time: 8:30 - 9:30 am
+  
+  - title: Lecture - Ocean Biology and Biogeochemistry
+    description: Fundamentals and current topics in global ocean biology and biogeochemistry
+    time: 9:30 - 10:30 am
+    leads:
+    - Galen McKinley
+
+  - title: Coffee Break
+    description: null
+    time: 10:30 - 11:00 am
+
+  - title: Hands on - ECCO Darwin and B-SOSE
+    description: The ECCO Darwin and B-SOSE Ocean biogeochemistry state estimates
+    time: 11:00 - 12:30 pm
+    leads:
+    - Matthew Mazloff and Dustin Carroll
+
+  - title: Lunch
+    description: null
+    time: 12:30 pm to 2:00 pm
+
+  - title: Lecture - Sea Ice in the Climate System
+    description: Observations and Modeling of Sea Ice
+    time: 2:00 - 3:00 pm
+    leads:
+    - Ian Fenty
+
+  - title: Coffee Break
+    description: null
+    time: 3:00 - 3:30 pm
+
+  - title: Open Project Time
+    time: 3:30 - 5:45 pm
+
+  - title: Daily Wrap / Updates
+    description: Summary of Day, Announcements 
+    time: 5:45 - 6:00 pm  
+
+  - title: Dinner
+    description: 
+    time: 7:00 - 8:00 pm
+
+
+- title: Day 10
+  date: Wednesday May 28, 2025
+  contents:
+
+  - title: Daily Kick-off
+    description: Announcements and Team Updates
+    time: 8:30 - 9:30 am
+  
+  - title: Lecture - Regional State Estimates at Scripps Institute of Oceanography
+    description: Overview of the various regional state estimation work at SIO
+    time: 9:30 - 10:30 am
+    leads:
+    - Matthew Mazloff
+
+  - title: Coffee Break
+    description: null
+    time: 10:30 - 11:00 am
+
+  - title: Open Project Time
+    description: 
+    time: 11:00 - 12:30 pm
+    
+  - title: Lunch
+    description: null
+    time: 12:30 pm to 2:00 pm
+
+  - title: Lecture - High resolution Ocean Modeling and Coupled Ocean/Atmosphere Modeling
+    description: ECCO high resolution ocean and coupled ocean/atmosphere modeling
+    time: 2:00 - 3:00 pm
+    leads:
+    - Chris Hill and Dimitris Menenemlis
+
+  - title: Coffee Break
+    description: null
+    time: 3:00 - 3:30 pm
+
+  - title: Open Project Time
+    time: 3:30 - 5:45 pm
+
+  - title: Daily Wrap / Updates
+    description: Summary of Day, Announcements 
+    time: 5:45 - 6:00 pm  
+
+  - title: Dinner
+    description: 
+    time: 7:00 - 8:00 pm
+
+
+- title: Day 11
+  date: Thursday May 29, 2025
+  contents:
+
+  - title: Daily Kick-off
+    description: Announcements and Team Updates
+    time: 8:30 - 9:30 am
+  
+  - title: Lecture - Regional State Estimates at UT Austin
+    description: Overview of the various regional state estimation work at UT Austin
+    time: 9:30 - 10:30 am
+    leads:
+    - An Nguyen
+
+  - title: Coffee Break
+    description: null
+    time: 10:30 - 11:00 am
+
+  - title: Open Project Time
+    description: 
+    time: 11:00 - 12:30 pm
+    
+  - title: Lunch
+    description: null
+    time: 12:30 pm to 2:00 pm
+
+  - title: Lecture - TBD
+    description: TBD
+    time: 2:00 - 3:00 pm
+    leads:
+    - TBD
+
+  - title: Coffee Break
+    description: null
+    time: 3:00 - 3:30 pm
+
+  - title: Open Project Time
+    time: 3:30 - 5:45 pm
+
+  - title: Daily Wrap / Updates
+    description: Summary of Day, Announcements 
+    time: 5:45 - 6:00 pm  
+
+  - title: Dinner
+    description: 
+    time: 7:00 - 8:00 pm
+
+- title: Day 12
+  date: Friday 30 May
+  contents:
+
+  - title: Daily Kick-off
+    description: Announcements
+    time: 8:30 - 9:00 am
+  
+  - title: Team Project Repositories & Project Posters
+    description: Guidelines for finalizing team project repositories and final project posters 
+    time: 9:00 - 9:30 am
+    leads:
+    - Gäel Forget & Ian Fenty 
     
   - title: Open Project Time
     description: Team-led project work
-    time: 8:45 - 10:00 am
+    time: 9:30 - 10:30 am
 
   - title: Coffee Break
     description: null
-    time: 10:00 - 10:15 am
+    time: 10:30 - 11:00 am
   
   - title: Open Project Time
     description: Team-led project work
-    time: 10:15 - 10:45 am
-
-  - title: Final Project Presentations (2)
-    description: Teams present their work and project posters
-    time: 10:30 - 11:00 am
+    time: 11:00 - 12:30 pm
 
   - title: Lunch 
     description: null
-    time: 11:00 - 12:30 pm
-  
-  - title: Final Project Presentations (6)
-    description: Teams present their work and project posters
     time: 12:30 - 2:00 pm
-
-  - title: ECCO Future Directions
-    description: moderated by Ichiro Fukumori
-    time: 2:00 - 2:30 pm
+  
+  - title: Final Project Presentations (1)
+    description: Teams present their work and project posters
+    time: 2:00 - 3:00 pm
 
   - title: Coffee Break
     description: null
-    time: 2:30 - 2:45 pm
+    time: 3:00 - 3:30 pm
 
-  - title: Open Individual Time
-    description: Open time with mentors
-    time: 2:45 - 4:45 pm
+  - title: Final Project Presentations (2)
+    description: Teams present their work and project posters
+    time: 3:30 - 5:00 pm
+
+  - title: ECCO Future Directions
+    description: moderated by Ichiro Fukumori
+    time: 5:00 - 5:45 pm
 
   - title: Final Wrap
-    description: Congratulations you made it!
-    time: 4:45 - 5:00 pm
+    description: 
+    time: 5:45 - 6:00 pm
+
+
+- title: Day 13
+  date: Saturday 31 May
+  contents:
+
+  - title: Depart
+    description: 
+    time: 11:00 am
