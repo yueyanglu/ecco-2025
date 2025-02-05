@@ -28,17 +28,17 @@ tabs:
     time: 10:30 - 11:00 am
 
   - title: ECCO Overview 
-    description: ECCO and the ECCO Central Estimate
+    description: History, scientific motiviation, and data products, including the Central Estimate
     time: 11:00 - 12:30 pm
     leads:
-    - Ichiro Fukumori
+    - Ichiro Fukumori, Ian Fenty
 
   - title: Lunch
     description: null
     time: 12:30 - 2:00 pm
   
-  - title: ECCO Applications
-    description: Survey of applications of ECCO products
+  - title: Scientific Applications
+    description: Survey of the scientific applications of ECCO products
     time: 2:00 - 3:00 pm
     leads:
     - TBD
@@ -53,11 +53,11 @@ tabs:
     leads:
     - Ian Fenty, Ou Wang, Gael Forget 
       
-  - title: Hands on - ECCO Analysis Tools
-    description: Matlab, Python, Julia, and other tools for working with ECCO data
+  - title: Hands on - ECCO Analysis Tool Overview
+    description: Matlab, Python, and Julia libraries and toolboxes and the ECCO Modelling Utilities suite of tools
     time: 5:00 - 5:45 pm
     leads:
-    - Ian Fenty, Gael Forget 
+    - Ian Fenty, Gael Forget, Ichiro Fukumori
 
   - title: Daily Wrap / Updates
     description: Summary of Day, Announcements 
@@ -123,7 +123,7 @@ tabs:
     time: 5:45 - 6:00 pm  
 
   - title: Dinner
-    description: Summary of Day, Announcements 
+    description:
     time: 7:00 - 8:00 pm
 
   - title: Student Poster Session 2
@@ -138,11 +138,11 @@ tabs:
     description: Announcements and Team Updates
     time: 8:30 - 9:30 am
   
-  - title: Lecture - Adjoint and Its Applications
-    description: The use of adjoint methods in oceanography and their applications
+  - title: Lecture - Adjoint and its Applications
+    description: Adjoint methods in oceanography and applications
     time: 9:30 - 10:30 am
     leads:
-    - Ichiro Fukumori
+    - Ichiro Fukumori, Ian Fenty
 
   - title: Coffee Break
     description: null
@@ -172,7 +172,7 @@ tabs:
     description: How to use the EMU suite of tools in ocean research
     time: 3:30 - 5:00 pm
     leads:
-    - Ichiro Fukumori
+    - Ichiro Fukumori, Ou Wang
 
   - title: Open Project Time
     description: Open time for projects
@@ -345,7 +345,7 @@ tabs:
     time: 3:30 - 5:45 pm
 
   - title: Daily Wrap / Updates
-    description: Summary of Day, Announcements 
+    description: Announcements 
     time: 5:45 - 6:00 pm  
 
   - title: Dinner
@@ -358,7 +358,7 @@ tabs:
   contents:
 
   - title: Daily Kick-off
-    description: Announcements and Team Updates
+    description: Announcements, Summary of Previous Day, Team Updates
     time: 8:30 - 9:30 am
   
   - title: Lecture - Ocean Biology and Biogeochemistry
@@ -510,7 +510,8 @@ tabs:
     description: Guidelines for finalizing team project repositories and final project posters 
     time: 9:00 - 9:30 am
     leads:
-    - Gäel Forget & Ian Fenty 
+    - Gäel Forget
+    - Ian Fenty 
     
   - title: Open Project Time
     description: Team-led project work
@@ -540,9 +541,11 @@ tabs:
     description: Teams present their work and project posters
     time: 3:30 - 5:00 pm
 
-  - title: ECCO Future Directions
-    description: moderated by Ichiro Fukumori
+  - title: ECCO Summer School Reflections
+    description: An open discussion on the ECCO summer school experience
     time: 5:00 - 5:45 pm
+    leads:
+    - Ian Fenty
 
   - title: Final Wrap
     description: 
