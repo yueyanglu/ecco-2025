@@ -24,7 +24,7 @@
 
     <style>
         .hero-carousel .carousel-item-1 {
-            background: url("{{cookiecutter.banner['image']}}") no-repeat center center;
+            background: url("{{cookiecutter.banner['image']}}") no-repeat center center; 
             background-size: cover;
         }
     </style>
@@ -219,7 +219,7 @@
 {%- if cookiecutter.schedule %}
 <section id="schedule" class="schedule-section section">
     <div class="container">
-        <h3 class="section-heading text-center mb-1">Schedule</h3>
+        <h3 class="section-heading text-center mb-1">DRAFT Schedule</h3>
         <h4 class="text-center mb-5">
             All times listed below are {{ cookiecutter.schedule.timezone }}.
             You might want to consult this
@@ -392,7 +392,7 @@
                             <div class="meta">
                                 {%- for group in person['user_groups'] %}
                                 <img
-                                    src="https://img.shields.io/badge/Hackweek-{{ group }}-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    src="https://img.shields.io/badge/ESS25-{{ group }}-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
                                     alt="{{ group }} badge"/>
                                 {%- endfor %}
                             </div>
@@ -481,7 +481,7 @@
                                     <div class="mb-2">
                                         {%- for group in person['user_groups'] %}
                                         <img
-                                            src="https://img.shields.io/badge/Hackweek-{{ group }}-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            src="https://img.shields.io/badge/ESS25-{{ group }}-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
                                             alt="{{ group }} badge"
                                         />
                                         {%- endfor %}
@@ -521,7 +521,7 @@
 {%- if cookiecutter.sponsors %}
 <section id="sponsors-section" class="sponsors-section section theme-bg-light">
     <div class="container">
-        <h3 class="section-heading text-center mb-3">Our Sponsors</h3>
+        <h3 class="section-heading text-center mb-3">Our Sponsor</h3>
         <div class="section-intro text-center single-col-max mx-auto mb-5">
             {{ cookiecutter.sponsors['description'] }}
         </div>

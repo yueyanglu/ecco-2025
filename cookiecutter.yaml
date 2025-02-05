@@ -4,7 +4,7 @@ apply:
   url: https://forms.gle/U18vUG1pqqmRGPdz7
   title: Apply Now!
 banner:
-  description: "A two-week course on the theory and applications of NASA's Estimating the Circulation and Climate of the Ocean (ECCO) project."
+  description: "A two-week course on ocean state estimation and NASA's Estimating the Circulation and Climate of the Ocean (ECCO) project."
   start_date: 19 
   end_date: 30 May
   year: 2025
@@ -16,11 +16,14 @@ banner:
   - url: logistics.html
     title: Event Logistics 
     new_window: false
-  image: https://www.nasa.gov/wp-content/uploads/2023/03/5091372229_ebca868ffd_o.jpeg
+  #image: https://www.nasa.gov/wp-content/uploads/2023/03/5091372229_ebca868ffd_o.jpeg
+  image: https://a.travel-assets.com/findyours-php/viewfinder/images/res70/26000/26855-Asilomar-State-Beach.jpg
+  #image: https://drive.google.com/file/d/16Y1x31H_E4HPc2I9XL7jtz3CWQhwrv-L/view?usp=sharing
+  
 # The opening session of the event with UTC offset
 event_countdown: "2025-05-19T08:30:00-07:00"
 about:
-  description: Join us for a two-week, hands-on exploration of ocean state estimation, held from May 19 to May 30, 2025, in the beautiful coastal setting of Pacific Grove, California. The ECCO Summer School program will blend expert-led lectures, interactive tutorials, peer-to-peer learning, and collaborative team projects to provide a deep dive into the principles and applications of ocean state estimation. Taught by leading researchers in oceanography, geophysical fluid dynamics, and geophysical data science, the course is designed for graduate students, postdocs, and early-career scientists eager to advance their understanding of ocean and climate dynamics. Attendance is free, and limited travel support is available. Don’t miss this opportunity to learn, collaborate, and engage with the cutting edge of ocean research!
+  description: Join us for an in-person, hands-on exploration of ocean state estimation, held from May 19 to May 30, 2025, in the beautiful coastal setting of the Asilomar Conference Grounds in Pacific Grove, California. The ECCO Summer School program will blend lectures, interactive tutorials, peer-to-peer learning, and collaborative team projects to provide a deep dive into the principles, products, applications of ocean state estimation. Taught by leading experts, the course is designed for graduate students, postdocs, and early-career scientists eager to advance their understanding of ocean and climate science. Attendance is free, and limited travel support is available. Don’t miss this opportunity to learn, collaborate, and engage with the cutting edge of ocean research!
   learn_more: https://escience.washington.edu/using-data-science/hackweeks
   links:
     - url: https://www.ecco-group.org/hackweek2024.htm
