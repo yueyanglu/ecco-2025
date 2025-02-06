@@ -32,7 +32,7 @@ about:
     - url: https://www.eccosummerschool.org/
       title: 2019 ECCO Summer School
       new_window: True
-applicant_info: Application deadline: March 10, 2025. Decisions will be made on or before March 24.
+applicant_info: The application deadline is March 10, 2025. Decisions will be made on or before March 24.
 team:
   !include team/team.yaml
 schedule:
