@@ -16,14 +16,14 @@ banner:
   - url: logistics.html
     title: Event Logistics 
     new_window: false
-  #image: https://www.nasa.gov/wp-content/uploads/2023/03/5091372229_ebca868ffd_o.jpeg
-  image: https://a.travel-assets.com/findyours-php/viewfinder/images/res70/26000/26855-Asilomar-State-Beach.jpg
+  image: https://www.nasa.gov/wp-content/uploads/2023/03/5091372229_ebca868ffd_o.jpeg
+  #image: https://a.travel-assets.com/findyours-php/viewfinder/images/res70/26000/26855-Asilomar-State-Beach.jpg
   #image: https://drive.google.com/file/d/16Y1x31H_E4HPc2I9XL7jtz3CWQhwrv-L/view?usp=sharing
   
 # The opening session of the event with UTC offset
 event_countdown: "2025-05-19T08:30:00-07:00"
 about:
-  description: Join us for an in-person, hands-on exploration of ocean state estimation, held from May 19 to May 30, 2025, in the beautiful coastal setting of the Asilomar Conference Grounds in Pacific Grove, California. The ECCO Summer School program will blend lectures, interactive tutorials, peer-to-peer learning, and collaborative team projects to provide a deep dive into the principles, products, applications of ocean state estimation. Taught by leading experts, the course is designed for graduate students, postdocs, and early-career scientists eager to advance their understanding of ocean and climate science. Attendance is free, and limited travel support is available. Don’t miss this opportunity to learn, collaborate, and engage with the cutting edge of ocean research!
+  description: Join us for an in-person, hands-on exploration of ocean state estimation in the beautiful coastal setting of the Asilomar Conference Grounds in Pacific Grove, California. The ECCO Summer School program will blend lectures, interactive tutorials, peer-to-peer learning, and collaborative team projects to provide a deep dive into the principles, products, applications of ocean state estimation. Taught by leading experts, the summer school program is designed for 20-30 graduate students, postdocs, and early-career scientists eager to advance their understanding of ocean and climate science. Attendance, housing, and meals are free, and limited travel support is available for accepted applicants. Don’t miss this opportunity to learn, collaborate, and engage with the cutting edge of ocean research! A maximum
   learn_more: https://escience.washington.edu/using-data-science/hackweeks
   links:
     - url: https://www.ecco-group.org/hackweek2024.htm
@@ -32,7 +32,7 @@ about:
     - url: https://www.eccosummerschool.org/
       title: 2019 ECCO Summer School
       new_window: True
-applicant_info: Applications are open until March 17, 2025.
+applicant_info: Applications can be submitted until March 10, 2025. Decisions will be communicated on or before March 24.
 team:
   !include team/team.yaml
 schedule:
