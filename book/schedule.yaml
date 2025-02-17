@@ -51,7 +51,7 @@ tabs:
     description: Getting connected to shared computational resources. OSS JupyterHub, P-Cluster, and efs_ecco.
     time: 3:30 - 5:00 pm
     leads:
-    - Ian Fenty, Ou Wang, Gael Forget 
+    - Ian Fenty, Ou Wang
       
   - title: Hands on - ECCO Analysis Tool Overview
     description: Matlab, Python, and Julia libraries and toolboxes and the ECCO Modelling Utilities suite of tools
@@ -94,7 +94,7 @@ tabs:
     description: Introduction to using Git for project organization
     time: 11:00 - 12:30 pm
     leads:
-    - Gael Forget
+    - Ian Fenty
 
   - title: Lunch
     description: null
@@ -477,11 +477,11 @@ tabs:
     description: null
     time: 12:30 pm to 2:00 pm
 
-  - title: Lecture - TBD
-    description: TBD
+  - title: Lecture - Tracking heat pathways in a warming ocean
+    description: 
     time: 2:00 - 3:00 pm
     leads:
-    - TBD
+    - Gael Forget
 
   - title: Coffee Break
     description: null
@@ -510,7 +510,6 @@ tabs:
     description: Guidelines for finalizing team project repositories and final project posters 
     time: 9:00 - 9:30 am
     leads:
-    - Gäel Forget
     - Ian Fenty 
     
   - title: Open Project Time
