@@ -30,7 +30,7 @@ On the p-cluster you can use singularity instead of [ECCO-Docker](https://github
 ```
 ssh -L 8888:localhost:8888 -i path_to_id_rsa_key_PCLUSTER -X USERNAME@34.210.1.198
 
-source ecco-2024/book/tutorials/Julia_setup/setup_modules.csh
+source ecco-2025/book/tutorials/Julia_setup/setup_modules.csh
 module add singularity-3.8.3-gcc-11.1.0-wqau5pb
 
 singularity pull ecco-docker.sif docker://gaelforget/ecco-docker

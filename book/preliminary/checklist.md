@@ -44,7 +44,7 @@ __Upon completion you__:
 
 Communication throughout the school will be done using the
 {{ '[`{hackweek}` Slack workspace]({url})'.format(hackweek=hackweek, url=slack_workspace_url)}}.
-With your invite to the hackweek, you should also have received a separate
+With your invite to the summer school, you should also have received a separate
 email to join the Slack workspace. Upon accepting the invite, please take a moment to
 [complete your Slack profile](https://slack.com/help/articles/204092246-Edit-your-profile).
 Having your name and picture with your Slack account helps us and your peers
