@@ -15,6 +15,10 @@ __Upon completion you__:
   <label for="a2">Created a GitHub account</label>
 </div>
 <div>
+  <input type="checkbox" name="a6">
+  <label for="a6">Created SSH keys and shared your public key</label>
+</div>
+<div>
   <input type="checkbox" name="a3">
   <label for="a3">Can log in to the OSS JupyterHub</label>
 </div>
@@ -44,7 +48,7 @@ __Upon completion you__:
 
 Communication throughout the school will be done using the
 {{ '[`{hackweek}` Slack workspace]({url})'.format(hackweek=hackweek, url=slack_workspace_url)}}.
-With your invite to the hackweek, you should also have received a separate
+With your invite to the summer school, you should also have received a separate
 email to join the Slack workspace. Upon accepting the invite, please take a moment to
 [complete your Slack profile](https://slack.com/help/articles/204092246-Edit-your-profile).
 Having your name and picture with your Slack account helps us and your peers
@@ -57,6 +61,12 @@ the week.
 Everyone attending {{ hackweek }} will need to have a GitHub account.
 Visit [the GitHub help pages](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
 if you are in need for an account!
+
+
+### SSH keys
+
+SSH keys are needed to access our cloud compute resources. Follow the instructions for 'Setting up your SSH Keys'.
+
 
 (accessing-jupyterhub)=
 ### Open Science Studio (OSS) JupyterHub
@@ -81,7 +91,7 @@ We'll have you download some data from NASA Earthdata for your tutorials and pro
 
 ### P-Cluster login and .bashrc update
 
-[AWS ParallelCluster](https://docs.aws.amazon.com/parallelcluster/latest/ug/what-is-aws-parallelcluster.html) (referred to as P-Cluster) is an open-source cluster management tool developed by Amazon Web Services (AWS). P-Cluster provides users with an HPC-like environment to conduct parallel computing. For the ECCO Hackathon, we have a P-Cluster ready for users to explore MITgcm, reproduce ECCO runs, and engage in many other activities. We have created an introductory [P-Cluster tutorial](pcluster-login.ipynb). Please go through the tutorial and ensure that: 1) you can log in to the P-Cluster, and 2) you have updated your .basrhc in your home directory..
+[AWS ParallelCluster](https://docs.aws.amazon.com/parallelcluster/latest/ug/what-is-aws-parallelcluster.html) (referred to as P-Cluster) is an open-source cluster management tool developed by Amazon Web Services (AWS). P-Cluster provides users with an HPC-like environment to conduct parallel computing. For the ECCO Hackathon, we have a P-Cluster ready for users to explore MITgcm, reproduce ECCO runs, and engage in many other activities. We have created an introductory [P-Cluster tutorial](pcluster-login.ipynb). Please go through the tutorial and ensure that: 1) you can log in to the P-Cluster, and 2) you have updated your .bashrc in your home directory..
 
 
 ### Set up Julia on the P-Cluster
