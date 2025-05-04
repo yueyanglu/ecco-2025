@@ -17,6 +17,7 @@ A subset of these tutorials have been copied over to the `ecco-2025` Jupyter boo
 | [Steric height](./ECCO_v4_computations/Steric_height.ipynb) | Steric height and thermosteric/halosteric components |
 | [Compute meridional heat transport](./ECCO_v4_computations/ECCO_v4_Example_MHT.ipynb) | Meridional heat transport |
 | [ECCOv4 Global Volume Budget Closure](./ECCO_v4_computations/ECCO_v4_Volume_budget_closure.ipynb) | Volume budget (minus global mean steric, IB, sea-ice loading) |
+| [Energy imbalance in the ocean](./ECCO_v4_computations/ECCO_v4_Energy_imbalance.ipynb) | The role of the ocean in Earth's energy imbalance |
 
 
 ## All ECCOv4 Python tutorials
