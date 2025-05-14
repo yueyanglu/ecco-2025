@@ -14,4 +14,5 @@ Tutorials related to ECCO Modeling Utilities (EMU)
 | [Budget Tool](./EMU/budg.ipynb) | Budget (budg) Tool | n/a |  Not recorded |
 | [Modified Simulation Tool](./EMU/msim.ipynb) | Modified Simulation (msim) Tool | n/a |  Not recorded |
 | [Attribution Tool](./EMU/atrb.ipynb) | Attribution (atrb) Tool | n/a |  Not recorded |
-| [Create Mask](./EMU/create_mask.ipynb) | How to create mask | n/a |  Not recorded |
+| [Auxiliary Tool](./EMU/aux.ipynb) | Auxiliary (aux) Tool | n/a |  Not recorded |
+| [Create Mask Using Python](./EMU/create_mask.ipynb) | How to create mask | n/a |  Not recorded |
