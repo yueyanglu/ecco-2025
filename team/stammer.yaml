@@ -1,0 +1,13 @@
+- title: Detlef Stammer
+  avatar: https://raw.githubusercontent.com/ECCO-Summer-School/ecco-2025/da64eb1360fc8fc0755c00cd700cf47df985d3cb/assets/Prof.%20Detlef%20Stammer_9251.jpeg
+  role: Scientist
+  organizations:
+    - name: University of Hamburg
+  bio:  Understanding the role of the ocean in climate variability and sea level change. Climate modelling and state estimation.
+  expertise:
+    - Estimation
+    - Modeling
+    - Sea level change
+    - Ocean climate variability
+  user_groups:
+    - Instructor
