@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -J ECCOv4r4
-#SBATCH --nodes=5
+#SBATCH --nodes=3
 #SBATCH --ntasks-per-node=36
 #SBATCH --time=24:00:00
 #SBATCH --exclusive
@@ -25,15 +25,15 @@ module load netcdf-fortran-4.5.3-gcc-11.1.0-d35hzyr
 module load hdf5-1.10.7-gcc-9.4.0-vif4ht3
 module list
 
-# Set environment varibales
+# Set environment variables
 export FORT_BUFFERED=1
 export MPI_BUFS_PER_PROC=128
 export MPI_DISPLAY_SETTINGS=""
 
 # Set processor count and directory paths
 nprocs=96
-basedir="./"
-inputdir=/efs_ecco/owang/ECCO/V4/r4/WORKINGDIR/ECCOV4/release4/input/
+basedir="/efs_ecco/$USER/r4/WORKINGDIR/ECCOV4/release4/"
+inputdir=../../../../input/
 
 # Create run directory
 if [ -d "${basedir}/run" ]; then
