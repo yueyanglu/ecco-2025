@@ -40,6 +40,10 @@ __Upon completion you__:
 </div>
 <div>
   <input type="checkbox" name="a8">
+  <label for="a7">Configure TAF on the P-Cluster</label>
+</div>
+<div>
+  <input type="checkbox" name="a9">
   <label for="a8">Set up Julia on the P-Cluster</label>
 </div>
 ```
@@ -92,6 +96,9 @@ We'll have you download some data from NASA Earthdata for your tutorials and pro
 ### P-Cluster login and .bashrc update
 
 [AWS ParallelCluster](https://docs.aws.amazon.com/parallelcluster/latest/ug/what-is-aws-parallelcluster.html) (referred to as P-Cluster) is an open-source cluster management tool developed by Amazon Web Services (AWS). P-Cluster provides users with an HPC-like environment to conduct parallel computing. For the ECCO Hackathon, we have a P-Cluster ready for users to explore MITgcm, reproduce ECCO runs, and engage in many other activities. We have created an introductory [P-Cluster tutorial](pcluster-login.ipynb). Please go through the tutorial and ensure that: 1) you can log in to the P-Cluster, and 2) you have updated your .bashrc in your home directory..
+
+### Configure TAF on the P-Cluster
+Transformation of Algorithms in Fortran (TAF), a commerical software developed by FastOpt will be used to generate adjoint code. Follow [these steps](https://ecco-summer-school.github.io/ecco-2025/preliminary/taf.html) to configure TAF on the P-Cluster, and make sure `staf -testi` runs successfully.
 
 
 ### Set up Julia on the P-Cluster
