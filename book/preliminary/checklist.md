@@ -103,4 +103,4 @@ Transformation of Algorithms in Fortran (TAF), a commerical software developed b
 
 ### Set up Julia on the P-Cluster
 
-Follow [these steps](https://ecco-summer-school.github.io/ecco-2025/tutorials/preliminary/Julia_setup.html) to set up the environment for the Julia tutorials on the P-Cluster.
+Follow [these steps](https://ecco-summer-school.github.io/ecco-2025/preliminary/Julia_setup.html) to set up the environment for the Julia tutorials on the P-Cluster.
