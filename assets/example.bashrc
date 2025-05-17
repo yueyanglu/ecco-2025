@@ -125,6 +125,8 @@ module load intel-oneapi-mpi-2021.2.0-gcc-11.1.0-ibxno3u
 module load netcdf-c-4.8.1-gcc-11.1.0-6so76nc
 module load netcdf-fortran-4.5.3-gcc-11.1.0-d35hzyr
 module load hdf5-1.10.7-gcc-9.4.0-vif4ht3
+# 2025-05-16 Add mkl module for compilizing optimization code
+module load intel-oneapi-mkl-2021.2.0-gcc-11.1.0-idxgd2d
 
 # 2024-09-11 The following changes needed for the EMU tool.
 # load module for singularity
@@ -132,5 +134,6 @@ module load singularity-3.8.3-gcc-11.1.0-wqau5pb
 module load python-3.9.7-gcc-11.1.0-cacmhhm
 
 # add new path
-export PATH="$PATH:/home/owang/.local/bin"
+# export PATH="$PATH:$HOME/.local/bin:/efs_ecco/ECCO/EMU/emu_userinterface_dir"
+export PATH="$PATH:/home/owang/.local/bin:/efs_ecco/ECCO/EMU/emu_userinterface_dir"
 
