@@ -72,13 +72,13 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scrollto" href="#team">
-                                Team
+                            <a class="nav-link scrollto" href="#schedule">
+                                Schedule
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scrollto" href="#schedule">
-                                Schedule
+                            <a class="nav-link scrollto" href="#team">
+                                Team
                             </a>
                         </li>
                         <li class="nav-item">
@@ -219,7 +219,7 @@
     <hr>
 </div>
 
-<section id="team" class="team section">
+<section id="schedule" class="schedule section">
     <div class="container">
         <div style="display: flex; justify-content: center;">
         <p>
@@ -232,7 +232,7 @@
 
                 <iframe 
                     src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQdoW0nEngvG4tnQzxVmy6maKsA0xeUYtdFsPIfFcCfE6Qv2D7jVRhGYHYVc-oIGg/pubhtml?gid=1201968290&amp;single=true&amp;widget=true&amp;headers=false"
-                    style="transform: scale(1.05); transform-origin: 0 0; border: none; width: 920px; height: 1050px; margin-bottom: 100px">
+                    style="transform: scale(1.05); transform-origin: 0 0; border: none; width: 940px; height: 1075px; margin-bottom: 100px">
                 </iframe>
             </div>
             <h3 class="section-heading text-center mb-3 margin-top: 10px">Week 2 Schedule</h3>
@@ -240,12 +240,10 @@
 <!--            <div class="mb-4"> -->
                 <iframe 
                     src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQdoW0nEngvG4tnQzxVmy6maKsA0xeUYtdFsPIfFcCfE6Qv2D7jVRhGYHYVc-oIGg/pubhtml?gid=878623500&amp;single=true&amp;widget=true&amp;headers=false"
-                    style="transform: scale(1.05); transform-origin: 0 0; border: none; width: 920px; height: 1050px;">
+                    style="transform: scale(1.05); transform-origin: 0 0; border: none; width: 940px; height: 1075px;">
                 </iframe>
             </div>
     </div>
-
-    
 </section>
 
 {%- if cookiecutter.team %}
@@ -407,57 +405,38 @@
     <div class="container">
         <h3 class="section-heading text-center mb-3">Our Sponsors</h3>
         
-        
         <div style="display: flex; justify-content: center; gap: 40px; align-items: center; margin: 40px 0;">
             <!-- First logo + name -->
             <div style="text-align: center;">
             <a href="https://science.nasa.gov/earth-science/focus-areas/climate-variability-and-change/ocean-physics/" target="_blank" style="text-decoration: none; color: inherit;">
                 <div style="margin-bottom: 10px; font-weight: bold;">NASA Ocean Physics</div>
-                <img src="https://earthdata.nasa.gov/s3fs-public/styles/large/public/2024-09/oceans.png" alt="Organization 1 Logo" style="height: 120px;">
+                <img src="https://earthdata.nasa.gov/s3fs-public/styles/large/public/2024-09/oceans.png" alt="NASA Ocean Physics" style="height: 180px;">
             </a>
             </div>
             <div style="text-align: center;">
                 <a href="https://www.giss.nasa.gov/pubs/credit/MAP.html" target="_blank" style="text-decoration: none; color: inherit;">
                 <div style="margin-bottom: 10px; font-weight: bold;">NASA Modelling, Analysis, and Prediction</div>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg" alt="Organization 1 Logo" style="height: 120px;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg" alt="NASA Modelling, Analysis, and Prediction" style="height: 180px;">
             </a>
             </div>
             <div style="text-align: center;">
                 <a href="https://www.earthdata.nasa.gov/topics/cryosphere" target="_blank" style="text-decoration: none; color: inherit;">
                 <div style="margin-bottom: 10px; font-weight: bold;">NASA Cryosphere</div>
-                <img src="https://earthdata.nasa.gov/s3fs-public/styles/large/public/2024-09/cryosphere.png" alt="Organization 1 Logo" style="height: 120px;">
+                <img src="https://earthdata.nasa.gov/s3fs-public/styles/large/public/2024-09/cryosphere.png" alt="NASA Cryosphere" style="height: 180px;">
             </a>
             </div>
             <div style="text-align: center;">
             <a href="http://fastopt.de" target="_blank" style="text-decoration: none; color: inherit;">
                 <div style="margin-bottom: 10px; font-weight: bold;">FastOpt</div>
-                <img src="http://fastopt.de/images/fastopt_logo_mit-subline.png" alt="Organization 2 Logo" style="height: 120px;">
+                <img src="https://raw.githubusercontent.com/ECCO-Summer-School/ecco-2025/1ffa975498cae4bf1bec810231e83268453aa2fb/assets/fastopt_logo.png" alt="FASTOPT" style="height: 180px;">
             </a>
             </div>
         </div>
         
-        <!-- <div class="section-intro text-center single-col-max mx-auto mb-5">
-            {{ cookiecutter.sponsors['description'] }}
-        </div>
-        {%- if cookiecutter.sponsors['organizations']|length > 0 %}
-        <div class="row logos justify-content-center">
-            {%- for org in cookiecutter.sponsors['organizations'] %}
-            <div class="logo-item col-6 col-md-4 col-lg-2">
-                {%- if org['website'] %}
-                <a href="{{ org['website'] }}" target="_blank"><img
-                    src="{{ org['logo_url'] }}"
-                    alt="{{ org['name'] }}"></a>
-                {%- else %}
-                <img src="{{ org['logo_url'] }}" alt="{{ org['name'] }}">
-                {%- endif %}
-            </div>
-            {%- endfor %}
-        </div>
-        {%- endif %}
-        //row -->
     </div>
     <!--//container-->
 </section>
+
 <!--//sponsors-section-->
 {%- endif %}
 
