@@ -66,6 +66,10 @@ unlink data.pkg
 cp -p ../namelist/data.pkg . 
 sed -i '/useProfiles=.TRUE./ s/^/#/' data.pkg
 
+# Output a few monthly core variables
+unlink data.diagnostics
+cp -p ../namelist/data.diagnostics.monthly.core data.diagnostics
+
 # Run the Python script to create diagnostic subdirectories
 python mkdir_subdir_diags.py
 

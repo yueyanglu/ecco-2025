@@ -62,6 +62,10 @@ unlink data
 cp -p ../namelist/data .
 sed -i '/#nTimeSteps=2160,/ s/^#//; /nTimeSteps=245423,/ s/^/#/' data
 
+# Output a few monthly core variables
+unlink data.diagnostics
+cp -p ../namelist/data.diagnostics.monthly.core data.diagnostics
+
 # Turn off the profiles package, as there are some issues using netCDF on the P-Cluster
 unlink data.pkg
 cp -p ../namelist/data.pkg . 
